@@ -29,7 +29,7 @@ const Person = [
   }
 ]
 
-function main(person, fax) {
+const main = (person, fax) => {
   for (var i = 0; i < person.length; i++) {
     if (person[i].address.phones.fax === fax) {
       return person[i].name, person[i].address.city;

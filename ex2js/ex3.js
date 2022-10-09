@@ -1,8 +1,6 @@
-function add(a, b) {
-  return a + b;
-}
+const add = (a, b) => a + b;
 
-function mul(a, b) {
+const mul = (a, b) => {
   let sum = a;
   for (let i = 1; i < b; i++) {
     sum = add(sum, a);

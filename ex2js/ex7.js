@@ -12,7 +12,7 @@ let avishai = new Student('Avishai', 3, [91, 92, 99, 100, 83]);
 
 let students = [chaggai, pnina, avishai];
 
-function main(students, minGradeToDisplay) {
+const main = (students, minGradeToDisplay) => {
   const grades = [];
   students.forEach(student => {
     student.grades.forEach(grade => grade > minGradeToDisplay ? grades.push(grade) : null)
